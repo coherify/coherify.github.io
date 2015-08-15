@@ -1,0 +1,102 @@
+body {
+    padding: 51px 0 0 0;
+    *, th, td, input {
+        font-family: 'Open Sans', 'Arial Narrow', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    span { font-size: inherit !important; }
+}
+h1 {
+    font-size: 52px;
+}
+h2 {
+    font-size: 52px;
+    line-height: 60px;
+}
+h3 {
+    font-size: 30px !important;
+    line-height: 30px;
+}
+h4 {
+    font-size: 20px !important;
+    font-style: italic;
+}
+
+
+.owell {
+    padding: 20px 0 20px 0;
+}
+.owell-grey {
+    background: #f7f7f7;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+.owell-blue {
+    background: #f2f7fa;
+    border-top: 1px solid #d9dee1;
+    border-bottom: 1px solid #d9dee1;
+}
+
+
+.anchor{
+  height: 50px; /*same height as header*/
+  margin-top: -50px; /*same height as header*/
+  visibility: hidden;
+}
+
+#page-header {
+    #navigation {
+        background: #fff;
+        .navbar-header {
+            i {
+                color: #aaa;
+            }
+            a.navbar-brand {
+                padding: 10px inherit;
+                img {
+                    max-height: 35px;
+                }
+            }
+        }
+        .navbar-nav>li>a {
+            color: #000;
+            &:hover {
+                background: inherit;
+            }
+        }
+    }
+    #navbar {
+        background: #fff;
+    }
+}
+
+#page-content {
+    .row {
+        padding: 20px 0;
+    }
+}
+
+#page-footer {
+    padding: 20px 0;
+    .row {
+        padding: 20px 0;
+    }
+    .icon-list {
+        padding-left: 25px; 
+        i { margin-left: -25px; }
+    }
+    .social {
+        line-height: 20px;
+        font-size: 16px;
+        a {
+            color: inherit;
+        }
+    }
+}
+
