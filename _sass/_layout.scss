@@ -54,13 +54,18 @@ h4 {
     #navigation {
         background: #fff;
         .navbar-header {
-            i {
-                color: #aaa;
+            .navbar-toggle {
+                margin: 10px 15px 8px 0;
+                padding: 0;
+                i {
+                    color: #aaa;
+                    line-height: 30px;
+                }
             }
-            a.navbar-brand {
-                padding: 10px inherit;
+            .navbar-brand {
+                padding: 10px 15px 14px 15px;
                 img {
-                    max-height: 35px;
+                    max-height: 36px;
                 }
             }
         }
