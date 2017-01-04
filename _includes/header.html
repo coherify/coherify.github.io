@@ -6,16 +6,24 @@
           <span class="sr-only">Toggle navigation</span>
           <i class="fa fa-bars"></i>
         </button>
-        <!--<a class="navbar-brand" title="Main page" href="/">Coherify</a>-->
         <a class="navbar-brand" title="Main page" href="/"><img alt="Coherify logo" src="/public/images/logo.png"></a>
       </div>
       <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a title="Coherence" href="#coherence">Coherence</a></li>
-          <li><a title="Our services" href="#services">Our services</a></li>
-          <li><a title="Get in touch" href="#contact">Get in touch</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
+        <div class="hidden-xs">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a title="Coherence" href="#coherence">Coherence</a></li>
+            <li><a title="Our services" href="#services">Our services</a></li>
+            <li><a title="Get in touch" href="#contact">Get in touch</a></li>
+          </ul>
+        </div>
+        <div class="visible-xs">
+          <ul class="nav navbar-nav navbar-right" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <li><a title="Coherence" href="#coherence">Coherence</a></li>
+            <li><a title="Our services" href="#services">Our services</a></li>
+            <li><a title="Get in touch" href="#contact">Get in touch</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </nav>
 </div>
