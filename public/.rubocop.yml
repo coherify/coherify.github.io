@@ -7,7 +7,7 @@
 #
 # Any of these may be changed.
 AllCops:
-  TargetRubyVersion: 2.7
+  TargetRubyVersion: 3.0
   NewCops: enable
 
 Layout/LineLength:
@@ -98,4 +98,13 @@ Style/StringLiteralsInInterpolation:
   EnforcedStyle: double_quotes
 
 Style/RedundantCondition: # Double pipes(||) on multiline is not so clear.
+  Enabled: false
+
+Gemspec/RequireMFA: # Doesnt allow use to push in CI/CD
+  Enabled: false
+
+Style/OpenStructUse: # Often very helpful in test, basically never use it in prod code
+  Enabled: false
+
+Style/SelectByRegexp:
   Enabled: false
